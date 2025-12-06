@@ -138,6 +138,9 @@ abstract class ActionRequest
                     algorithms: [
                         new A128CBCHS256()
                     ]
+                ),
+                compressionMethodManager: new CompressionMethodManager(
+                    methods: [],
                 )
             ),
             headerCheckerManager: new HeaderCheckerManager(
