@@ -17,7 +17,7 @@
     "require": {
         "web-token/jwt-framework": "^3.4",
         "guzzlehttp/guzzle": "^7.0",
-        "nesbot/carbon": "^2.56",
+        "nesbot/carbon": "^2.56|^3.0",
         "ext-openssl": "*"
     },
     "config": {
