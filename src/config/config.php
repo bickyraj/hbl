@@ -74,7 +74,7 @@ return [
     /**
      * Input Currecy for example USD or NRP.
      */
-    "InputCurrency" => "NPR",
+    "InputCurrency" => "THB",
 
     /**
      * Input 3DS should be Y for production and N for development
