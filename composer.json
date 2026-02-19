@@ -15,7 +15,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "web-token/jwt-framework": "^3.4",
+        "web-token/jwt-framework": "2.2",
         "guzzlehttp/guzzle": "^7.0",
         "nesbot/carbon": "^2.56|^3.0",
         "ext-openssl": "*"

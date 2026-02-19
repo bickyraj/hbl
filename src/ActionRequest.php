@@ -108,10 +108,10 @@ abstract class ActionRequest
 
         $this->jweCompactSerializer = new JWECompactSerializer();
         $this->jweBuilder = new JWEBuilder(
-            algorithmManager: new AlgorithmManager(
+            keyEncryptionAlgorithmManager: new AlgorithmManager(
                 algorithms: [
                     new RSAOAEP()
-                ],
+                ]
             ),
             contentEncryptionAlgorithmManager: new AlgorithmManager(
                 algorithms: [
@@ -129,7 +129,7 @@ abstract class ActionRequest
                 ]
             ),
             jweDecrypter: new JWEDecrypter(
-                algorithmManager: new AlgorithmManager(
+                keyEncryptionAlgorithmManager: new AlgorithmManager(
                     algorithms: [
                         new RSAOAEP()
                     ]
